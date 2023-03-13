@@ -1,5 +1,5 @@
 function link_zap(){
-    location.href='https://api.whatsapp.com/send?phone=5513997131714';
+    location.href='https://api.whatsapp.com/send?phone=5513997086806';
 }
 
 
@@ -17,5 +17,5 @@ var link_insta = document.getElementsByClassName("dropdown-item")[2];
 
 
 var el = document.getElementsByClassName("contato_itens")[0];
-    el.children[3].innerHTML = "<i class='fa fa-envelope'></i> meucardapiocajati@outlook.com";
+    el.children[3].innerHTML = "<i class='fa fa-envelope'></i> hmmtech.info@gmail.com";
     
