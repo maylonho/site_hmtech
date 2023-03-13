@@ -1,0 +1,13 @@
+O sistema de grade Bootstrap possui quatro classes: 
+
+
+
+sm (para tablets - telas iguais ou maiores que 576px de largura) 
+
+md (para laptops pequenos - telas iguais ou maiores que 768px de largura) 
+
+lg ( para laptops e desktops - telas iguais ou maiores que 992px de largura)
+
+xl ( para laptops e desktops - telas iguais ou maiores que 1200px de largura)
+
+xxl

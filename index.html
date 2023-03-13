@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="shortcut icon" href="./imgs/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Meu Cardapio - Cajati</title>
+  </head>
+  <body>
+
+    <div class="contato_top">
+      <div class="container">
+          <div class="row justify-content-sm-center text-center">
+              <div class="contato_itens col-12">
+                    <div>Tem alguma dúvida? </div> 
+                    <div><i class="fa fa-phone"></i> 13 996487963 </div>
+                    <div><i class="fa fa-whatsapp text-success"></i> 13 997131714 </div>
+                    <div><i class="fa fa-envelope"></i> Alteracao via JS em todas as paginas</div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+        <div class="container">
+        <a class="navbar-brand" href="#"><img src="./imgs/logo_grande_cardapio.png" style="width: 60px; margin: 0; padding: 0;"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">PÁGINA INICIAL <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="empresa.html">A EMPRESA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="produtos.html">PRODUTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicos.html">SERVIÇOS</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSocial" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  NOSSAS REDES
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownSocial">
+                  <a class="dropdown-item" href="#">Facebook</a>
+                  <a class="dropdown-item" href="#">Twitter</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Instagram</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+
+          
+      <div class="zap link_zap">
+        <img src="imgs/zap.png" alt="Fale conosco">
+      </div>  
+
+
+      <!--Carrosel-->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active slide">
+            <img id="slide" src="./imgs/carrosel/hamburguer.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block msg-car">
+              <h2>Os melhores Hanburgueres da região</h2>
+              <h5>Conheça as melhores lanchonetes para comer aquele X-Salada do final de semana.</h5>
+            </div>
+          </div>
+          <div class="carousel-item slide">
+            <img id="slide" src="./imgs/carrosel/pizza.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block msg-car">
+              <h2>Pizzas de diversos sabores</h2>
+              <h5>Contamos com mais de 3 pizzarias para você escolher o tamanho da sua fome</h5>
+            </div>
+          </div>
+          <div class="carousel-item slide">
+            <img id="slide" src="./imgs/carrosel/vegano.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block msg-car">
+              <h2>Comida Vegana e Vegetariana</h2>
+              <h5>Também temos opções veganas para todos os gostos.</h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      
+      <!--Inicio dos cards-->
+      <div class="container">
+        <div class="row">
+          
+            <div class="apres_titulo col-12 text-center my-5">
+            
+              <h5 class="text-muted">Meu Cardápio Online</h5>
+              <h1>Seu Cardápio online chegou!</h1>
+              <h6>Mostre sua variedade de sabores de uma forma muito mais eficiêncinte</h6>
+              <h5>Turbine suas vendas e agilize o atendimento</h5>
+                
+            
+            </div>
+          
+        </div>
+        <div class="row justify-content-sm-center">
+            
+            
+            <div class="col-sm-6 col-md-4">
+            
+                <div class="card border-0 mb-5">
+                    
+                    <img class="card-img-top" src="./imgs/card1.png">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Cardápio Digital</h4>
+                        <p class="card-text mb-2 text-muted text-center">Agilidade no Atendimento, Eficiência nos pedidos e Satisfação total dos clientes.</p>
+                        
+                    </div>              
+                </div>             
+            </div>
+            
+            <div class="col-sm-6 col-md-4">
+            
+                <div class="card border-0 mb-5">
+                    
+                    <img class="card-img-top" src="./imgs/card2.png">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Pedidos na Mesa</h4>
+                        <p class="card-text mb-2 text-muted text-center">Deixe seus clientes a vontade para escolher e pedir diratamente da mesa.</p>
+                        
+                    </div>
+
+                </div>  
+            
+            </div>
+            <div class="col-sm-6 col-md-4">
+            
+                <div class="card border-0 mb-5">
+                    
+                    <img class="card-img-top" src="./imgs/card3.png">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Pedidos por WhatsApp</h4>
+                        <p class="card-text mb-2 text-muted text-center">Melhore seu delivery por WhatsApp, enviando o link do Cardápio digital.</p>
+                        
+                    </div>
+                                    
+                </div> 
+            
+            </div>
+        
+        </div>
+    </div>
+
+    <!--Inicio do rodape-->
+
+    <div class="row_marcas row mr-0 ml-0">
+        <div class="container my-5">
+            <div class="row justify-content-sm-center text-center">
+                
+                <div class="col-12">
+                    <h3 class=" mb-4">Já fazemos parte de diversas famílias, junte-se a nós também.</h3>
+                    <div class="marcas">
+                        <img class="img-footer" src="./imgs/clientes/clientes_fratello.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_halaska.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_kabuloso.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_mataatlantica.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_ongarato.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_terraco.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_tiabete.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_villa.png">
+                        <img class="img-footer" src="./imgs/clientes/clientes_beto.png">
+                    </div> 
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="col-12 bg-light py-5 text-dark">
+              
+      <blockquote class="blockquote text-center">
+      
+          <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho.</p>
+          <footer class="blockquote-footer">Biz Stone <cite title="Titulo">Fundador do Twiter</cite></footer>
+      </blockquote>
+
+      
+      
+      <div class="row mt-5 mb-2">
+
+        <div class="col-sm-4 text-center mt-0">
+          <img src="./imgs/logo_grande_cardapio.png" alt="" style="width: 30%;">
+        </div>
+
+        <div class="col-sm-4 mb-5 pl-5">
+          <h5 class="text-dark">Links</h5>
+          <a href="#"><h6 class="text-dark">Página Inicial</h6></a>
+          <a href="./explorar.html"><h6 class="text-dark">Explorar</h6></a>
+          <a href="./sobre.html"><h6 class="text-dark">Sobre</h6></a>
+          <a href="./contato.html"><h6 class="text-dark">Contato</h6></a>
+        </div>
+
+
+        <div class="col-sm-4 mb-5 mt-3">
+            <h6 class=" text-center"><i class="fa fa-phone"></i> (13) 99648-7963 / (13) 99713-1714</h6>
+            <h6 class=" text-center"><i class="fa fa-envelope"></i> meucardapiocajati@outlook.com</h6>
+        </div>
+ 
+        <div class="col-12 border-top pt-3">
+          <blockquote class="blockquote text-right mb-0">
+            <footer class="blockquote-footer text-center">
+              Meu Cardapio Online - Site Desenvolvido por MHO Systens.
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+  
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="./js/funcoes.js"></script>
+  </body>
+</html>

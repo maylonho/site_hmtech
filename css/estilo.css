@@ -1,0 +1,232 @@
+
+@media only screen and (min-width:760px){
+    #slide{
+        transform: translate(0%,-40%); 
+    }
+    
+    .slide{
+        max-height: 70vh;
+    }
+
+    .produto_item{
+        max-width: 200px;
+        height: 250px;
+    }
+
+    .servicos{
+        margin-bottom: 25px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #b6b6b6;
+    }
+
+    .zap{
+        width: 90px; 
+        bottom: 40px; 
+    }
+}
+
+@media only screen and (max-width:761px) {
+    .empresa_foto{
+        overflow: hidden;
+        height: 280px;
+        order: 0;
+    }
+
+    .empresa_desc{
+        order: 1;
+    }
+    
+    .empresa_foto img{
+        transform: translate(0%, -30%);
+    }   
+
+    .produto_item{
+        max-width: 120px;
+        height: 150px;
+    }
+
+    .produto_item h4{
+        font-size: 12pt;
+    }
+
+    .servicos .tit{
+        order: 0;
+    }
+    .servicos .img{
+        order: 1;
+    }
+    .servicos .texto{
+        order: 2;
+    }
+
+    .zap{
+        width: 70px; 
+        bottom: 80px; 
+    }
+
+}
+.zap{
+    position: fixed;
+    right: 20px; 
+    z-index: 1000;
+}
+.zap img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.zap:hover{
+    opacity: 0.9;
+    border: 1px solid #9696ff;
+    border-radius: 50%;
+    transform: rotate(10deg);
+}
+
+
+body{
+    font-family: sans-serif;
+}
+
+
+.row_marcas{
+    background-color: #3377cc;
+}
+
+.row_marcas h3{
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25pt;
+}
+
+
+.marcas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.marcas img{
+    border-radius: 20px;
+    margin: 0px 6px 20px 6px;
+    width: 150px;
+}
+
+.msg-car{
+    background-color: rgb(165, 165, 165);
+    border-radius: 10px;
+    opacity: 0.7;
+    padding: 10px 1px 10px 1px;
+    bottom: 20%;
+}
+
+.msg-car h2,h5{
+    color: #000000;
+} 
+
+.contato_top{
+    background-color: #dddddd;
+    padding: 5px;
+}
+.contato_itens{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 12pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titulo{
+    background-image: linear-gradient( to right, rgb(200, 200, 255), rgb(250, 250, 250), rgb(220, 220, 255) ); 
+    margin-bottom: 20px;
+}
+
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.produtos a{
+    text-decoration: none;
+}
+
+.produto_item{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    flex-grow: 1;
+    flex-basis: 1;
+    text-align: center;
+    border: 1px solid #707070;
+    border-radius: 10px;
+}
+
+.produto_item:hover{
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+.produto_item:hover img{
+    transform: scale(1.2);
+}
+
+.produtos img{
+    max-width: 70%;
+    height: 70%;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+
+
+.servicos-col-dir{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.servicos.row{
+    margin-left: 0; 
+    margin-right: 0;
+}
+
+.servicos .tit{
+    text-decoration: underline;
+}
+
+.img-serv{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.img-fachada{
+    width: 100%;
+}
+
+.btn-voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #9696ff;
+    border-radius: 5px;
+    padding: 5px 25px 0px 25px;
+}
+
+.btn-voltar:hover{
+    background-color: #9696FF;
+    border: 1px solid #000000;
+    cursor: pointer;
+    color: white;
+}
+
+.apres_titulo{
+    font-family: 'Comfortaa', cursive;
+}
